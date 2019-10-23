@@ -26,7 +26,7 @@
 
 ### <b> Virtual Private Network </b>
 
-An isolated network in the cloud with subnets (network within a network) which allows to separate the resources you have when it comes to an internet access perspective.
+An isolated network in the cloud with <b>subnets</b> (network within a network) which allows to separate the resources you have when it comes to an internet access perspective.
 
 
 ![](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-instance-diagram.png)
@@ -45,3 +45,7 @@ An isolated network in the cloud with subnets (network within a network) which a
 
 
 - <b> Route table</b> - A route table contains a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in your VPC must be associated with a route table; the table controls the routing for the subnet.
+
+
+# Testing build on Jenkins (CI)
+- CI testing
