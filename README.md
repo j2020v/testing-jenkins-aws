@@ -47,5 +47,8 @@ An isolated network in the cloud with <b>subnets</b> (network within a network) 
 - <b> Route table</b> - A route table contains a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in your VPC must be associated with a route table; the table controls the routing for the subnet.
 
 
-# Testing build on Jenkins (CI)
-- CI testing
+## Testing build on Jenkins (CI)
+- CI testing :sushi:
+
+## Testing connection build on Jenkins and notify email
+- Testing notification
