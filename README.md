@@ -46,6 +46,9 @@ An isolated network in the cloud with <b>subnets</b> (network within a network) 
 
 - <b> Route table</b> - A route table contains a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in your VPC must be associated with a route table; the table controls the routing for the subnet.
 
+#### NACL vs Security Group
+- NACL supports allow and deny rules whereas security groups only support allow rules.
+- NACL evaluates rules one at a time in order whereas security groups evaluates them all at the same time before it evaluates anything.
 
 ## Testing build on Jenkins (CI)
 - CI testing :sushi:
@@ -54,4 +57,4 @@ An isolated network in the cloud with <b>subnets</b> (network within a network) 
 - Testing notification
 
 ## Testing connection build on Jenkins and notify on Teams Jenkins Group
-- Testing Teams 
+- Testing Teams
